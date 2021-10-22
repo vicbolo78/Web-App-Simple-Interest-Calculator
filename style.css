@@ -1,0 +1,36 @@
+body {
+  background-color: black;
+  font-family: arial;
+  color: white;
+}
+
+h1 {
+  color: grey;
+  font-family: verdana;
+}
+
+.maindiv {
+  background-color: white;
+  color: black;
+  width: 500px;
+  padding: 20px;
+  border-radius: 25px;
+  margin-left: 5%;
+}
+
+.subdiv {
+  margin-left: 15%; /* Set subdiv margin-left to 15% to center text */
+}
+
+.foot {
+  text-align: left; /* Set footer text to left of subdiv */
+}
+
+.entity:after {
+  content: "\0025"; /* Set % symbol entity after span value */
+  margin-top: -1px; /* Set % symbol height to match specs */
+}
+/* Added input thumb to range slider for more visual focus */
+input[type="range"]::-webkit-slider-thumb {
+  cursor: ew-resize;
+}
